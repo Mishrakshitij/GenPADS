@@ -1,0 +1,594 @@
+{
+  "format_version": 1,
+  "dataset": "GenPADS",
+  "source_dataset": "Taskmaster-2",
+  "conversation_ids": 17289,
+  "split_seed": 42,
+  "split_ratios": {
+    "train": 0.8,
+    "validation": 0.1,
+    "test": 0.1
+  },
+  "politeness_counts": {
+    "0": 61183,
+    "1": 33837,
+    "2": 164829,
+    "3": 81952
+  },
+  "files": {
+    "gendd/cleaned/flights.csv": {
+      "rows": 28961,
+      "sha256": "1eeba305c87695b7289fc49f868bf09c536aa1594b064e130a53b119268a868b",
+      "columns": [
+        "conversation_id",
+        "utterance_id",
+        "turn_id",
+        "speaker",
+        "text",
+        "segments",
+        "split"
+      ],
+      "conversations": 2481,
+      "splits": {
+        "test": 2840,
+        "train": 23285,
+        "validation": 2836
+      }
+    },
+    "gendd/cleaned/food-ordering.csv": {
+      "rows": 6556,
+      "sha256": "e604c65a4b90c73e9708d9eb96a6cec31dcdc4bb579007e0e75d0c1fcffe25b6",
+      "columns": [
+        "conversation_id",
+        "utterance_id",
+        "turn_id",
+        "speaker",
+        "text",
+        "segments",
+        "split"
+      ],
+      "conversations": 1049,
+      "splits": {
+        "test": 668,
+        "train": 5248,
+        "validation": 640
+      }
+    },
+    "gendd/cleaned/hotels.csv": {
+      "rows": 27299,
+      "sha256": "780e5f82c1e861c3e67e8059fab1fee4ed59c0a6884a35c8c84fcd9e3a18f9db",
+      "columns": [
+        "conversation_id",
+        "utterance_id",
+        "turn_id",
+        "speaker",
+        "text",
+        "segments",
+        "split"
+      ],
+      "conversations": 2347,
+      "splits": {
+        "test": 2609,
+        "train": 21921,
+        "validation": 2769
+      }
+    },
+    "gendd/cleaned/movies.csv": {
+      "rows": 25551,
+      "sha256": "83e3676a3dcc6765dc0c38fd1643d75e30a571fb43328ba603e25af61e8791b9",
+      "columns": [
+        "conversation_id",
+        "utterance_id",
+        "turn_id",
+        "speaker",
+        "text",
+        "segments",
+        "split"
+      ],
+      "conversations": 3047,
+      "splits": {
+        "test": 2581,
+        "train": 20399,
+        "validation": 2571
+      }
+    },
+    "gendd/cleaned/music.csv": {
+      "rows": 12475,
+      "sha256": "a18139ece8f3c1e68e6dbc3fbe17060b27aed1545a1d9a3ea0820193884b0d45",
+      "columns": [
+        "conversation_id",
+        "utterance_id",
+        "turn_id",
+        "speaker",
+        "text",
+        "segments",
+        "split"
+      ],
+      "conversations": 1602,
+      "splits": {
+        "test": 1241,
+        "train": 9963,
+        "validation": 1271
+      }
+    },
+    "gendd/cleaned/restaurant-search.csv": {
+      "rows": 25708,
+      "sha256": "8b723cbe6ea4af54a7bfb9d3be683fb641d68a437e44f5b9bead7e32d2ab90f5",
+      "columns": [
+        "conversation_id",
+        "utterance_id",
+        "turn_id",
+        "speaker",
+        "text",
+        "segments",
+        "split"
+      ],
+      "conversations": 3049,
+      "splits": {
+        "test": 2397,
+        "train": 20808,
+        "validation": 2503
+      }
+    },
+    "gendd/cleaned/sports.csv": {
+      "rows": 26118,
+      "sha256": "4b0684ae8c3fc67982bc7781cad4d847569776026291df570a964c49fcd0f9ec",
+      "columns": [
+        "conversation_id",
+        "utterance_id",
+        "turn_id",
+        "speaker",
+        "text",
+        "segments",
+        "split"
+      ],
+      "conversations": 3475,
+      "splits": {
+        "test": 2543,
+        "train": 21013,
+        "validation": 2562
+      }
+    },
+    "gendd/dg/flights.csv": {
+      "rows": 8003,
+      "sha256": "41bf4b13a6ce2639af1c8f3807b20272b4a738daab0323e47d8fc824f6a75b04",
+      "columns": [
+        "conversation_id",
+        "example_id",
+        "input_text",
+        "target_text",
+        "split"
+      ],
+      "conversations": 2480,
+      "splits": {
+        "test": 748,
+        "train": 6500,
+        "validation": 755
+      }
+    },
+    "gendd/dg/food-ordering.csv": {
+      "rows": 2076,
+      "sha256": "5750d1c4ff606d07a0a9d049f85e3a5bba2f029b61ddcd5eb41e13aa647fa4ce",
+      "columns": [
+        "conversation_id",
+        "example_id",
+        "input_text",
+        "target_text",
+        "split"
+      ],
+      "conversations": 1049,
+      "splits": {
+        "test": 206,
+        "train": 1675,
+        "validation": 195
+      }
+    },
+    "gendd/dg/hotels.csv": {
+      "rows": 6373,
+      "sha256": "c2df5c42a6f2da605896552aca7dbd85028e6304449276f98f15a9f5500ff2bd",
+      "columns": [
+        "conversation_id",
+        "example_id",
+        "input_text",
+        "target_text",
+        "split"
+      ],
+      "conversations": 2331,
+      "splits": {
+        "test": 552,
+        "train": 5168,
+        "validation": 653
+      }
+    },
+    "gendd/dg/movies.csv": {
+      "rows": 8274,
+      "sha256": "cc6bf079b17c214572cba10b05ff45582fd7dcc8aa8d065afd0f702c983b4072",
+      "columns": [
+        "conversation_id",
+        "example_id",
+        "input_text",
+        "target_text",
+        "split"
+      ],
+      "conversations": 3026,
+      "splits": {
+        "test": 778,
+        "train": 6667,
+        "validation": 829
+      }
+    },
+    "gendd/dg/music.csv": {
+      "rows": 4085,
+      "sha256": "8a0a878f291c114a0125a0354e785038095019b3e98062473078cba838177200",
+      "columns": [
+        "conversation_id",
+        "example_id",
+        "input_text",
+        "target_text",
+        "split"
+      ],
+      "conversations": 1513,
+      "splits": {
+        "test": 402,
+        "train": 3257,
+        "validation": 426
+      }
+    },
+    "gendd/dg/restaurant-search.csv": {
+      "rows": 7089,
+      "sha256": "6e62a40efb678794cda5161de5b3dfb00db3f2ba0a2fbd95b0b57207b9fb2021",
+      "columns": [
+        "conversation_id",
+        "example_id",
+        "input_text",
+        "target_text",
+        "split"
+      ],
+      "conversations": 3041,
+      "splits": {
+        "test": 630,
+        "train": 5788,
+        "validation": 671
+      }
+    },
+    "gendd/dg/sports.csv": {
+      "rows": 9532,
+      "sha256": "ec69a7a269b0e631019971caee9f8a99c861d33d8396c81d1446c29fa50d7f91",
+      "columns": [
+        "conversation_id",
+        "example_id",
+        "input_text",
+        "target_text",
+        "split"
+      ],
+      "conversations": 3455,
+      "splits": {
+        "test": 889,
+        "train": 7732,
+        "validation": 911
+      }
+    },
+    "gendd/g/flights.csv": {
+      "rows": 16006,
+      "sha256": "53b9a38bc81de86bb16f0f616159ee3bdb51814fe51ef73b28a2e9e648fca578",
+      "columns": [
+        "conversation_id",
+        "example_id",
+        "source_id",
+        "input_text",
+        "target_text",
+        "split"
+      ],
+      "conversations": 2480,
+      "splits": {
+        "test": 1496,
+        "train": 13000,
+        "validation": 1510
+      },
+      "source_examples": 8003,
+      "unchanged_target_rows": 182,
+      "distinct_pairs": 15203,
+      "distinct_changed_pairs": 15067
+    },
+    "gendd/g/food-ordering.csv": {
+      "rows": 4152,
+      "sha256": "4254beaa55eabe34f44cdf7e47d95c549f6fc3e231db782a0c0ba45266d6047a",
+      "columns": [
+        "conversation_id",
+        "example_id",
+        "source_id",
+        "input_text",
+        "target_text",
+        "split"
+      ],
+      "conversations": 1049,
+      "splits": {
+        "test": 412,
+        "train": 3350,
+        "validation": 390
+      },
+      "source_examples": 2076,
+      "unchanged_target_rows": 26,
+      "distinct_pairs": 3644,
+      "distinct_changed_pairs": 3622
+    },
+    "gendd/g/hotels.csv": {
+      "rows": 12746,
+      "sha256": "816a48a55240d2f0d07078e8e5e3782eaa730d3e779469c3b56b702f074d17be",
+      "columns": [
+        "conversation_id",
+        "example_id",
+        "source_id",
+        "input_text",
+        "target_text",
+        "split"
+      ],
+      "conversations": 2331,
+      "splits": {
+        "test": 1104,
+        "train": 10336,
+        "validation": 1306
+      },
+      "source_examples": 6373,
+      "unchanged_target_rows": 151,
+      "distinct_pairs": 12416,
+      "distinct_changed_pairs": 12300
+    },
+    "gendd/g/movies.csv": {
+      "rows": 16548,
+      "sha256": "e5bfac99ff4081e8d5d2426f15fc57e469c991667c1d128019225e660ef84f76",
+      "columns": [
+        "conversation_id",
+        "example_id",
+        "source_id",
+        "input_text",
+        "target_text",
+        "split"
+      ],
+      "conversations": 3026,
+      "splits": {
+        "test": 1556,
+        "train": 13334,
+        "validation": 1658
+      },
+      "source_examples": 8274,
+      "unchanged_target_rows": 489,
+      "distinct_pairs": 15951,
+      "distinct_changed_pairs": 15603
+    },
+    "gendd/g/music.csv": {
+      "rows": 8170,
+      "sha256": "1c08a1207224277a92c5895515754e5b19ec888e0a6b3bb4152deb7271561baf",
+      "columns": [
+        "conversation_id",
+        "example_id",
+        "source_id",
+        "input_text",
+        "target_text",
+        "split"
+      ],
+      "conversations": 1513,
+      "splits": {
+        "test": 804,
+        "train": 6514,
+        "validation": 852
+      },
+      "source_examples": 4085,
+      "unchanged_target_rows": 643,
+      "distinct_pairs": 8028,
+      "distinct_changed_pairs": 7471
+    },
+    "gendd/g/restaurant-search.csv": {
+      "rows": 14178,
+      "sha256": "dd28d8f214a1747e89522c85d60559328a9c7b4d38bdc2e2eef08ee1c4d50a12",
+      "columns": [
+        "conversation_id",
+        "example_id",
+        "source_id",
+        "input_text",
+        "target_text",
+        "split"
+      ],
+      "conversations": 3041,
+      "splits": {
+        "test": 1260,
+        "train": 11576,
+        "validation": 1342
+      },
+      "source_examples": 7089,
+      "unchanged_target_rows": 307,
+      "distinct_pairs": 13610,
+      "distinct_changed_pairs": 13383
+    },
+    "gendd/g/sports.csv": {
+      "rows": 19064,
+      "sha256": "35b1933117c44c067e7474a95d65b7367ba0ca22ab1c176030e400db67e944f7",
+      "columns": [
+        "conversation_id",
+        "example_id",
+        "source_id",
+        "input_text",
+        "target_text",
+        "split"
+      ],
+      "conversations": 3455,
+      "splits": {
+        "test": 1778,
+        "train": 15464,
+        "validation": 1822
+      },
+      "source_examples": 9532,
+      "unchanged_target_rows": 1108,
+      "distinct_pairs": 17754,
+      "distinct_changed_pairs": 17160
+    },
+    "padd/flights.csv": {
+      "rows": 63346,
+      "sha256": "d12a12b014e7f1ce8e36503ae37c5693731fc0be20bd25ae90cdc9c7e60b82ba",
+      "columns": [
+        "conversation_id",
+        "utterance_id",
+        "speaker",
+        "text",
+        "label",
+        "split"
+      ],
+      "conversations": 2481,
+      "splits": {
+        "test": 6334,
+        "train": 50687,
+        "validation": 6325
+      },
+      "labels": {
+        "0": 8226,
+        "1": 6653,
+        "2": 34283,
+        "3": 14184
+      }
+    },
+    "padd/food-ordering.csv": {
+      "rows": 13953,
+      "sha256": "9df2e3501d01223e608f4b9e2acd3b0c74f1a7857c700e4af7ee5bdfa2646fec",
+      "columns": [
+        "conversation_id",
+        "utterance_id",
+        "speaker",
+        "text",
+        "label",
+        "split"
+      ],
+      "conversations": 1050,
+      "splits": {
+        "test": 1404,
+        "train": 11189,
+        "validation": 1360
+      },
+      "labels": {
+        "0": 1589,
+        "1": 1011,
+        "2": 7160,
+        "3": 4193
+      }
+    },
+    "padd/hotels.csv": {
+      "rows": 63048,
+      "sha256": "7fee03f7e7d2a8638f1186577e3b6a7e076eb28e49553cc1be3ab8f8be29c8e4",
+      "columns": [
+        "conversation_id",
+        "utterance_id",
+        "speaker",
+        "text",
+        "label",
+        "split"
+      ],
+      "conversations": 2355,
+      "splits": {
+        "test": 6162,
+        "train": 50558,
+        "validation": 6328
+      },
+      "labels": {
+        "0": 12373,
+        "1": 7929,
+        "2": 31889,
+        "3": 10857
+      }
+    },
+    "padd/movies.csv": {
+      "rows": 59757,
+      "sha256": "4514f3cab4d52e7f4d8e5678e10af8a1b74888e845afde00eb2149d105dd9d41",
+      "columns": [
+        "conversation_id",
+        "utterance_id",
+        "speaker",
+        "text",
+        "label",
+        "split"
+      ],
+      "conversations": 3047,
+      "splits": {
+        "test": 6051,
+        "train": 47776,
+        "validation": 5930
+      },
+      "labels": {
+        "0": 9290,
+        "1": 5442,
+        "2": 29375,
+        "3": 15650
+      }
+    },
+    "padd/music.csv": {
+      "rows": 26912,
+      "sha256": "693422a447bc3064b25aeab209bde0cc7e7a7644f55e11eaf36bf769eb03743a",
+      "columns": [
+        "conversation_id",
+        "utterance_id",
+        "speaker",
+        "text",
+        "label",
+        "split"
+      ],
+      "conversations": 1602,
+      "splits": {
+        "test": 2739,
+        "train": 21487,
+        "validation": 2686
+      },
+      "labels": {
+        "0": 4399,
+        "1": 1351,
+        "2": 13303,
+        "3": 7859
+      }
+    },
+    "padd/restaurant-search.csv": {
+      "rows": 66205,
+      "sha256": "493209e1c5aa756ab89dd103f6d299c5887e2dcbbe35d5ced10e34a5d43e02cf",
+      "columns": [
+        "conversation_id",
+        "utterance_id",
+        "speaker",
+        "text",
+        "label",
+        "split"
+      ],
+      "conversations": 3276,
+      "splits": {
+        "test": 6260,
+        "train": 53242,
+        "validation": 6703
+      },
+      "labels": {
+        "0": 7700,
+        "1": 6822,
+        "2": 33897,
+        "3": 17786
+      }
+    },
+    "padd/sports.csv": {
+      "rows": 48580,
+      "sha256": "bc3f11ed41f59cf0734e196d63b818249d422389a229b4fac9516e2eb9d24433",
+      "columns": [
+        "conversation_id",
+        "utterance_id",
+        "speaker",
+        "text",
+        "label",
+        "split"
+      ],
+      "conversations": 3478,
+      "splits": {
+        "test": 4888,
+        "train": 38787,
+        "validation": 4905
+      },
+      "labels": {
+        "0": 17606,
+        "1": 4629,
+        "2": 14922,
+        "3": 11423
+      }
+    }
+  }
+}

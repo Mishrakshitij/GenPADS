@@ -1,0 +1,77 @@
+cff-version: 1.2.0
+message: "Please cite the GenPADS paper and the Taskmaster dataset when using this repository."
+type: software
+title: "GenPADS: Research code and datasets"
+authors:
+  - family-names: Mishra
+    given-names: Kshitij
+  - family-names: Firdaus
+    given-names: Mauajama
+  - family-names: Ekbal
+    given-names: Asif
+repository-code: "https://github.com/Mishrakshitij/GenPADS"
+preferred-citation:
+  type: article
+  title: "GenPADS: Reinforcing politeness in an end-to-end dialogue system"
+  authors:
+    - family-names: Mishra
+      given-names: Kshitij
+    - family-names: Firdaus
+      given-names: Mauajama
+    - family-names: Ekbal
+      given-names: Asif
+  journal: PLOS ONE
+  volume: "18"
+  issue: "1"
+  start: e0278323
+  year: 2023
+  doi: 10.1371/journal.pone.0278323
+  url: "https://doi.org/10.1371/journal.pone.0278323"
+references:
+  - type: conference-paper
+    title: "Taskmaster-1: Toward a Realistic and Diverse Dialog Dataset"
+    authors:
+      - family-names: Byrne
+        given-names: Bill
+      - family-names: Krishnamoorthi
+        given-names: Karthik
+      - family-names: Sankar
+        given-names: Chinnadhurai
+      - family-names: Neelakantan
+        given-names: Arvind
+      - family-names: Goodrich
+        given-names: Ben
+      - family-names: Duckworth
+        given-names: Daniel
+      - family-names: Yavuz
+        given-names: Semih
+      - family-names: Dubey
+        given-names: Amit
+      - family-names: Kim
+        given-names: Kyu-Young
+      - family-names: Cedilnik
+        given-names: Andy
+    collection-title: "Proceedings of EMNLP-IJCNLP 2019"
+    year: 2019
+    start: "4516"
+    end: "4525"
+    doi: 10.18653/v1/D19-1459
+    url: "https://aclanthology.org/D19-1459/"
+  - type: data
+    title: Taskmaster-2
+    authors:
+      - family-names: Byrne
+        given-names: Bill
+      - family-names: Krishnamoorthi
+        given-names: Karthik
+      - family-names: Ganesh
+        given-names: Saravanan
+      - family-names: Dubey
+        given-names: Amit
+      - family-names: Kim
+        given-names: Kyu-Young
+      - family-names: Cedilnik
+        given-names: Andy
+    year: 2020
+    url: "https://github.com/google-research-datasets/Taskmaster/tree/master/TM-2-2020"
+    license: CC-BY-4.0
